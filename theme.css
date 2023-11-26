@@ -41,16 +41,6 @@ navbar a {
     text-transform: uppercase;
 }
 
-footer {
-    background: #f4f4f4;
-    color: #333;
-    text-align: center;
-    padding: 20px 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
 @media (max-width: 700px) {
     .container {
         width: 95%;
@@ -68,6 +58,7 @@ footer {
     }
 }
 
+/* Sidebar Styles */
 .sidebar {
     height: 100%;
     width: 200px;
@@ -77,16 +68,34 @@ footer {
     left: 0;
     overflow-x: hidden;
     padding-top: 20px;
+    background-color: #f9f9f9; /* Lighter background */
+    border-right: 1px solid #ddd; /* Add a border */
 }
 
 .sidebar a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 18px; /* Smaller font size */
+    color: #333; /* Darker font color for contrast */
     display: block;
 }
 
+.sidebar a:hover {
+    background-color: #eaeaea; /* Slight change in background on hover */
+}
+
+/* Adjust main content area */
 .main {
-    margin-left: 200px;
-    padding: 0px 10px;
+    margin-left: 210px; /* Adjust based on sidebar width */
+    padding: 20px;
+}
+
+footer {
+    background: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
