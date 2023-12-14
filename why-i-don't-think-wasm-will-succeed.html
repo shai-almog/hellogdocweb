@@ -3,20 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Why I don't Think WASM Will Succeed</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="theme.css">
 </head>
 <body>
 <header>
-<a href="/">Home</a>
+<div class="hamburger-menu" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+<a href="index.html">Home</a>
     <a href="why-i-don't-think-wasm-will-succeed.html">Why I don't Think WASM Will Succeed</a>
     <a href="test-gdocweb.html">Test gdocweb</a>
 </header>
 <div class="content"><p><span style=''>
 </span></p>
-</div> <footer>
+</div><footer>
     Created for free by
     <a href="https://gdocweb.com" target="_blank">gdocweb</a>. <br>
     Convert Google Docs files to full fledged websites <b>for free</b>.
- </footer>
- </body>
- </html>
+</footer>
+<script>
+function toggleMenu() {
+    var header = document.querySelector('header');
+    header.classList.toggle('nav-active');
+}
+</body>
+</html>
