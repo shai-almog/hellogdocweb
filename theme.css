@@ -46,6 +46,49 @@ footer {
     padding: 20px 0;
     width: 100%;
 }
+
+.hamburger-menu span {
+    background-color: #333;
+}
+header .hamburger-menu {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 30px;
+    width: 30px;
+    margin-left: auto;
+}
+
+.hamburger-menu span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+    header .hamburger-menu {
+        padding: 0px;
+        display: flex;
+        margin-left: 0px;
+    }
+
+    header a {
+        display: none;
+    }
+
+    header.nav-active a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    header.nav-active {
+        flex-direction: column;
+    }
+}
 header {
     padding: 1em 0;
     display: flex;
