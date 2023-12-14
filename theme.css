@@ -1,17 +1,16 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    color: #fff;
-    background-color: #330000; /* Dark red background */
+    color: #333;
+    background-color: #fff;
     line-height: 1.6;
 }
 
 a {
-    color: #ff6666; /* Lighter red for links */
+    color: #0067cc;
     text-decoration: none;
 }
 
 a:hover {
-    color: #ff9999; /* Even lighter red on hover */
     text-decoration: underline;
 }
 
@@ -22,32 +21,15 @@ a:hover {
 }
 
 header {
-    background: #660000;
-    color: #fff;
-    padding: 20px 0;
+    background: #f4f4f4;
+    color: #333;
 }
 
 
-footer {
-    background: #660000;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-    width: 100%;
-}
-
-.button {
-    background-color: #990000;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+header a {
+    text-decoration: none;
+    margin: 0 15px;
     text-transform: uppercase;
-}
-
-.button:hover {
-    background-color: #cc0000;
 }
 
 @media (max-width: 700px) {
@@ -56,72 +38,34 @@ footer {
     }
 }
 
-.hamburger-menu span {
-    background-color: #FFFFFF;
-}
-header .hamburger-menu {
-    display: none;
-    cursor: pointer;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 30px;
-    width: 30px;
-    margin-left: auto;
-}
 
-.hamburger-menu span {
-    display: block;
-    height: 3px;
+footer {
+    background: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
     width: 100%;
-    border-radius: 3px;
-}
-
-@media (max-width: 768px) {
-    header .hamburger-menu {
-        padding: 0px;
-        display: flex;
-        margin-left: 0px;
-    }
-
-    header a {
-        display: none;
-    }
-
-    header.nav-active a {
-        display: block;
-        padding: 10px;
-        text-align: center;
-        width: 100%;
-    }
-
-    header.nav-active {
-        flex-direction: column;
-    }
 }
 header {
-    height: 100%;
-    width: 200px;
+    padding: 1em 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
     position: fixed;
     top: 0;
     left: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-    padding: 1em 0;
-    display: flow-root list-item;
-    border-right: 1px solid #ddd;
+    width: 100%;
     z-index: 1000;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
+
 header a {
     text-decoration: none;
     font-weight: bold;
     margin-left: 15px;
-    text-align: left;
-    line-height: 2.6;
-    white-space: nowrap;
 }
+
 .content {
-    padding: 20px;
-    margin-left: 210px;
-    overflow: hidden;
+    padding: 50px 20px;
 }
