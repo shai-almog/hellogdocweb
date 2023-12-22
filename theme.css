@@ -77,6 +77,18 @@ header a {
     margin-left: 210px;
     overflow: hidden;
 }
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+header nav ul li .submenu-toggle {
+    display: none;
+}
+.submenu {
+    padding-left: 20px;
+    font-size: 80%;
+}
 @media (max-width: 768px) {
     header {
         padding-left: 10px;
@@ -121,7 +133,6 @@ header .hamburger-menu {
         display: block;
         padding: 10px;
         text-align: center;
-        width: 100%;
     }
 
     header.nav-active {
