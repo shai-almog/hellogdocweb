@@ -3,11 +3,11 @@
 
 <channel>
   <title>Test gdocweb</title>
-  <link>https://shai-almog.github.io/GdocwebStartupDemo/</link>
+  <link>https://shai-almog.github.io/hellogdocweb/</link>
   <description>Your Company  123 Your Street Your City, ST 12345 (123) 456 - 7890  Bold  Italic  Underline  Red  White on red  12p font  16p font  Impact  P roduct Brochure  September 04, 20XX  Minor change to see if this works… Bullet 1 Bullet 2 Some text Number 1 Number 2</description>
   <item>
     <title>Why I don't Think WASM Will Succeed</title>
-    <link>https://shai-almog.github.io/GdocwebStartupDemo/why-i-don't-think-wasm-will-succeed.html</link>
+    <link>https://shai-almog.github.io/hellogdocweb/why-i-don't-think-wasm-will-succeed.html</link>
      <description></description>
    </item>
 </channel>
