@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-    <loc>https://shai-almog.github.io/GdocwebStartupDemo/</loc>
-    <lastmod>2024-01-21T08:11:17.118823+02:00</lastmod>
+    <loc>https://shai-almog.github.io/hellogdocweb/</loc>
+    <lastmod>2024-01-21T08:16:02.526389+02:00</lastmod>
     <priority>1.00</priority>
 </url>
 <url>
-    <loc>https://shai-almog.github.io/GdocwebStartupDemo/why-i-don't-think-wasm-will-succeed.html</loc>
-    <lastmod>2024-01-21T08:11:33.528147+02:00</lastmod>
+    <loc>https://shai-almog.github.io/hellogdocweb/why-i-don't-think-wasm-will-succeed.html</loc>
+    <lastmod>2024-01-21T08:16:07.615917+02:00</lastmod>
     <priority>0.80</priority>
 </url>
 

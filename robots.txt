@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://shai-almog.github.io/GdocwebStartupDemo/sitemap.xml
+Sitemap: https://shai-almog.github.io/hellogdocweb/sitemap.xml
